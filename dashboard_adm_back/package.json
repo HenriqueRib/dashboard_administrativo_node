@@ -1,0 +1,20 @@
+{
+  "name": "dashboard_api/dashboard_adm_back",
+  "version": "1.0.0",
+  "description": "Api para um dashboard administrativo simples onde os usuários possam gerenciar uma lista de funcionários, incluindo a criação, leitura, atualização e exclusão de registros de funcionários.",
+  "author": "HenriqueRib <ribeiro.henriquem@gmail.com>",
+  "keywords": [],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "./bin/app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "http-errors": "^2.0.0",
+    "pino": "^9.1.0",
+    "pino-http": "^10.1.0",
+    "pino-pretty": "^11.0.0"
+  }
+}
